@@ -41,7 +41,6 @@ public abstract class AbstractViewTest extends ParallelTest {
         this.route = route;
         this.rootSelector = rootSelector;
     }
-
     @Before
     public void setup() throws Exception {
         if (isUsingHub()) {
@@ -51,7 +50,6 @@ public abstract class AbstractViewTest extends ParallelTest {
         }
         getDriver().get(getURL(route));
     }
-
     /**
      * Convenience method for getting the root element of the view based on
      * the selector passed to the constructor.
