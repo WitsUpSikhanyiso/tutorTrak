@@ -110,6 +110,7 @@ public abstract class AbstractViewTest extends ParallelTest {
                 System.getProperty(USE_HUB_PROPERTY));
     }
 
+    
     /**
      * If running on CI, get the host name from environment variable HOSTNAME
      *
